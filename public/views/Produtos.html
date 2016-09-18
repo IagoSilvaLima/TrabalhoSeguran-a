@@ -1,0 +1,17 @@
+<table class="table">
+    <thead>
+        <tr>
+            <th>Nome</th>
+            <th>Preço</th>
+            <th>Categorias</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr ng-repeat="product in vm.products">
+            <td>{{product.name}}</td>
+            <td>{{product.price}}</td>
+            <td>{{product.categorium.description}}</td>
+        </tr>
+    </tbody>
+  </table>
+  <a href="#/produto"><button type="button" class="btn btn-default">Adicionar</button></a> 

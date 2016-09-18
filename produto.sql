@@ -1,0 +1,1 @@
+CREATE TABLE PRODUTOS(idProduto mediumint(8) unsigned not null auto_increment primary key,nome varchar(100) not null,preco float not null,idCategoria mediumint(8) unsigned not null,FOREIGN KEY (idCategoria) REFERENCES Categoria(idCategoria));

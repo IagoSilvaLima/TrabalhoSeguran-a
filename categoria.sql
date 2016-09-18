@@ -1,0 +1,1 @@
+CREATE TABLE categoria (idCategoria mediumint(8) unsigned NOT NULL auto_increment,nome varchar(100) not null,descricao varchar(255) not null,PRIMARY KEY (`idCategoria`)) 
